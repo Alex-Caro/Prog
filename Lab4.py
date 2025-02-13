@@ -15,7 +15,6 @@ def is_prime(n):
     if n == 2:
         return True
     for a in range(2, n):
-        print(n)
         if n % a == 0:
             return False
         return True
